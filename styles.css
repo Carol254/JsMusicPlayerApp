@@ -33,5 +33,13 @@ nav .circle{
     line-height: 40px;
     background: #fff;
     color:#f53192;
-    box-shadow: 0 5px 10px (255,26,26,0.22);
+    box-shadow: 0 5px 10px rgba(255,26,26,0.22);
+}
+
+.song-img{
+    width:220px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 60px rgba(255,26,26,0.22);
+
 }
