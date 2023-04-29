@@ -71,3 +71,12 @@ nav .circle{
     border: 8px solid #fff;
     box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
 }
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls div{
+    width: 60px;
+    
+}
