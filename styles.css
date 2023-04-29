@@ -77,6 +77,9 @@ nav .circle{
     align-items: center;
 }
 .controls div{
-    width: 60px;
-    
+    width: 60px;  
+}
+
+.controls div i{
+    cursor: pointer;
 }
