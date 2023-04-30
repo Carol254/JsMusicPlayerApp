@@ -83,3 +83,6 @@ nav .circle{
 .controls div i{
     cursor: pointer;
 }
+.circle i{
+    cursor: pointer;
+}
