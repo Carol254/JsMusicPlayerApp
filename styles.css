@@ -90,8 +90,8 @@ nav .circle{
     cursor: pointer;  
 }
 
-.controls div i{
-    cursor: pointer;
+.controls div :nth-child(2){
+    transform: scale(1.5);
 }
 .circle i{
     cursor: pointer;
