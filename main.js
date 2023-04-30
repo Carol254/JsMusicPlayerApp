@@ -7,3 +7,16 @@ song.onloadedmetadata = function() {
     progress.value = song.currentTime;
 
 }
+
+function playPause(){
+    if (ctrlIcon.classList.contains("bi-pause-fill")){
+        song.pause();
+
+        ctrlIcon.classList.remove("bi-pause-fill");
+        ctrlIcon.classList.add("bi-play-fill");
+    }else{
+        song.play();
+        ctrlIcon.classList.add("bi-pause-fill");
+        ctrlIcon.classList.remove("bi-play-fill");
+    }
+}
