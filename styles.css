@@ -90,7 +90,7 @@ nav .circle{
     cursor: pointer;  
 }
 
-.controls div :nth-child(2){
+.controls div:nth-child(2){
     transform: scale(1.5);
     background: #f53192;
     color: #fff;
