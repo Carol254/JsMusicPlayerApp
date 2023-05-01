@@ -17,10 +17,11 @@
 .music-player{
     background: #ffe0e5;
     width:400px;
+    height: 80%;
     padding: 25px 35px;
     text-align: center;
-
 }
+
 nav{
     display: flex;
     justify-content: space-between;
