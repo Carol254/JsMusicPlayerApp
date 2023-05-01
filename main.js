@@ -22,6 +22,14 @@ function playPause(){
 
 if (song.play()){
     setInterval(()=>{
-        progress.value = song.currentTime //moves the progress bar as the song plays
+        progress.value = song.currentTime; //moves the progress bar as the song plays
     },500);
+}
+
+progress.onchange = function (){
+    song.play();
+    song.currentTime = progress.value;
+    
+    ctrlIcon.classList.add("bi-pause-fill");
+    ctrlIcon.classList.remove("bi-play-fill");
 }
