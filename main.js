@@ -19,3 +19,9 @@ function playPause(){
         ctrlIcon.classList.remove("bi-play-fill");
     }
 }
+
+if (song.play()){
+    setInterval(()=>{
+        progress.value = song.currentTime //moves the progress bar as the song plays
+    },500);
+}
